@@ -119,19 +119,13 @@ Como configurar um instância de banco de dados no Azure.
 
 Para configurar uma instância de banco de dados no Azure, você pode seguir os passos abaixo:
 
-
-
 1. Acesse o Portal do Azure:
 
   - Vá para [portal.azure.com](https://portal.azure.com) e faça login com sua conta.
 
-
-
 2. Crie um Banco de Dados SQL:
 
   - No menu à esquerda, selecione "SQL databases" e clique em "Add".
-
-
 
 3. Configurações Básicas:
 
@@ -141,26 +135,48 @@ Para configurar uma instância de banco de dados no Azure, você pode seguir os 
 
   - Crie um novo servidor ou selecione um existente. Para um novo servidor, defina o nome, o usuário administrador e a senha.
 
-
-
 4. Configurações de Escalabilidade:
 
   - Escolha a camada de preço que melhor se adapta às suas necessidades (por exemplo, Basic, Standard, Premium).
-
-
 
 5. Configurações de Segurança:
 
   - Configure as regras de firewall para permitir o acesso ao banco de dados a partir do seu IP ou de uma faixa de IPs.
 
-
-
 6. Revisão e Criação:
 
   - Revise todas as configurações e clique em "Create".
 
-
-
 7. Conexão ao Banco de Dados:
 
   - Após a criação, você pode se conectar ao banco de dados usando ferramentas como SQL Server Management Studio (SSMS) ou Azure Data Studio.
+
+* Quarto desadio
+
+Como e porque criar um grupo de recursos no azure:
+
+1. Acesse o portal do Azure: Entre na sua conta do Azure e vá para o portal.
+
+2. Selecione "Grupos de recursos": No menu à esquerda, clique em "Grupos de recursos".
+
+3. Clique em "Criar": No topo da página, clique no botão "Criar".
+
+4. Preencha os detalhes:
+
+  - *Assinatura: Selecione a assinatura do Azure que você deseja usar.
+
+  - Nome do grupo de recursos: Insira um nome para o grupo.
+
+  - Região: Escolha a localização onde os metadados do grupo serão armazenados.
+
+5. Revise e crie: Clique em "Revisar + Criar" e depois em "Criar" para finalizar.
+
+Por que criar um grupo de recursos no Azure:
+
+1. Organização: Agrupar recursos que compartilham o mesmo ciclo de vida facilita a gestão e a visualização de todos os componentes de uma solução específica.
+
+2. Gerenciamento Simplificado: Permite implantar, atualizar e excluir recursos como um grupo, economizando tempo e reduzindo a complexidade.
+
+3. Controle de Acesso: Facilita a aplicação de políticas de segurança e controle de acesso a todos os recursos dentro do grupo.
+
+4. Monitoramento e Custos: Ajuda a monitorar o desempenho e os custos associados a um conjunto específico de recursos, permitindo uma gestão financeira mais eficaz.
