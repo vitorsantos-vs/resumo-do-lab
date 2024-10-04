@@ -1,7 +1,7 @@
 # resumo-do-lab
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
 
-* Primeiro desafio
+###* Primeiro desafio
   
 Principais serviços do Azure, organizados por categorias:
 
@@ -74,7 +74,7 @@ Principais serviços do Azure, organizados por categorias:
 - **Azure PowerShell**
 - **Azure DevTest Labs**
 
-* Segundo desafio
+###* Segundo desafio
 
 Como criar uma máquina virtual no Azure via portal:
 
@@ -113,7 +113,7 @@ Como criar uma máquina virtual no Azure via portal:
    - Após a implantação, vá para a página da VM e copie o endereço IP público.
    - Use uma ferramenta de conexão remota (como RDP para Windows ou SSH para Linux) para acessar a VM.
 
-* Terceiro desafio
+###* Terceiro desafio
 
 Como configurar um instância de banco de dados no Azure.
 
@@ -151,7 +151,7 @@ Para configurar uma instância de banco de dados no Azure, você pode seguir os 
 
   - Após a criação, você pode se conectar ao banco de dados usando ferramentas como SQL Server Management Studio (SSMS) ou Azure Data Studio.
 
-* Quarto desadio
+###* Quarto desadio
 
 Como e porque criar um grupo de recursos no azure:
 
@@ -180,3 +180,36 @@ Por que criar um grupo de recursos no Azure:
 3. Controle de Acesso: Facilita a aplicação de políticas de segurança e controle de acesso a todos os recursos dentro do grupo.
 
 4. Monitoramento e Custos: Ajuda a monitorar o desempenho e os custos associados a um conjunto específico de recursos, permitindo uma gestão financeira mais eficaz.
+
+###* Quinto desafio
+
+Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure
+
+Configurar e dimensionar máquinas virtuais (VMs) no Azure envolve alguns passos importantes para garantir que os recursos atendam às suas necessidades de desempenho e custo. Aqui está um guia básico para te ajudar:
+
+1. **Acessar o Portal do Azure**:
+   - Faça login no [Portal do Azure](https://portal.azure.com) com suas credenciais.
+
+2. **Criar uma Máquina Virtual**:
+   - No painel, procure por "Máquinas Virtuais" ou clique em "Criar Recurso" e selecione "Máquina Virtual".
+   - Escolha uma assinatura e um grupo de recursos existente ou crie um novo.
+   - Defina o nome da VM e escolha a região mais próxima dos seus usuários para melhor performance.
+   - Selecione o sistema operacional desejado (Windows ou Linux) e a imagem correspondente.
+   - Defina as credenciais de login: para Windows, nome de usuário e senha; para Linux, utilize chaves SSH para uma conexão mais segura⁴.
+
+3. **Configurar o Tamanho da Máquina Virtual**:
+   - O tamanho da VM define a quantidade de CPU, memória e armazenamento temporário disponível.
+   - Escolha o tamanho que melhor se ajuste à sua carga de trabalho:
+     - **Tamanhos Gerais**: Adequado para aplicações comuns e balanceadas.
+     - **Tamanhos Otimizados para Memória**: Ideal para bancos de dados e aplicações com alta demanda de RAM.
+     - **Tamanhos Otimizados para Computação**: Recomendado para cargas que exigem alto poder de processamento⁴.
+
+4. **Configurar o Armazenamento**:
+   - Na aba de Discos, selecione o tipo de disco mais adequado para sua VM:
+     - **SSD Premium**: Recomendado para aplicações de alta performance e ambientes de produção.
+     - **SSD Padrão**: Um meio-termo, para cargas moderadas.
+     - **HDD Padrão**: Ideal para cargas com baixo custo e menor exigência de desempenho⁴.
+
+5. **Configurar a Rede**:
+   - Associe a VM a uma Rede Virtual (VNet) existente ou crie uma nova.
+   - Configure as opções de rede, como endereços IP, sub-redes e grupos de segurança⁴.
