@@ -213,3 +213,38 @@ Configurar e dimensionar máquinas virtuais (VMs) no Azure envolve alguns passos
 5. **Configurar a Rede**:
    - Associe a VM a uma Rede Virtual (VNet) existente ou crie uma nova.
    - Configure as opções de rede, como endereços IP, sub-redes e grupos de segurança⁴.
+  
+   
+###* Sexto Desafio
+
+Como criar uma conta de armazenamento no azure 
+
+Para criar uma conta de armazenamento no Azure, você pode seguir estes passos:
+
+
+
+1. Acesse o Portal do Azure: Entre no [portal do Azure](https://portal.azure.com/).
+
+2. Selecione "Contas de armazenamento": No menu à esquerda, clique em "Contas de armazenamento". Se o menu não estiver visível, clique no ícone de menu para ativá-lo.
+
+3. Clique em "Criar": Na página de contas de armazenamento, clique no botão "Criar".
+
+4. Preencha os Detalhes:
+
+  - Assinatura: Escolha a assinatura do Azure que você deseja usar.
+
+  - Grupo de Recursos: Selecione um grupo de recursos existente ou crie um novo.
+
+  - Nome da Conta de Armazenamento: Insira um nome único para a sua conta de armazenamento.
+
+  - Região: Escolha a região onde deseja criar a conta.
+
+  - Desempenho: Selecione entre "Standard" ou "Premium", dependendo das suas necessidades.
+
+  - Redundância: Escolha o tipo de redundância (LRS, GRS, etc.).
+
+5. Configurações Adicionais: Configure as opções adicionais conforme necessário, como rede, segurança e tags.
+
+6. Revisar e Criar: Revise suas configurações e clique em "Criar" para finalizar a criação da conta.
+
+
