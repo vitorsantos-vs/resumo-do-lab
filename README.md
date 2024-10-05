@@ -247,4 +247,49 @@ Para criar uma conta de armazenamento no Azure, você pode seguir estes passos:
 
 6. Revisar e Criar: Revise suas configurações e clique em "Criar" para finalizar a criação da conta.
 
+###* Setimo Desafio
+
+Como funciona a Identidade, Acesso e Segurança no AZURE.
+
+No Azure, a gestão de identidade, acesso e segurança é fundamental para proteger recursos e dados. Aqui estão alguns dos principais componentes e funcionalidades:
+
+
+1. Entra ID Antigo - (Azure Active Directory (Azure AD)): É o serviço de gerenciamento de identidade e diretório baseado em nuvem da Microsoft. Ele oferece:
+
+  - Logon Único (SSO): Permite que os usuários acessem vários aplicativos com uma única autenticação.
+
+  - Autenticação Multifator (MFA): Adiciona uma camada extra de segurança exigindo mais de uma forma de verificação.
+
+  - Acesso Condicional: Define políticas baseadas em critérios como usuário, localização e dispositivo para determinar se o acesso deve ser permitido ou bloqueado.
+
+
+2. Controle de Acesso Baseado em Função (RBAC): Permite gerenciar permissões de acesso aos recursos do Azure com base nas funções dos usuários dentro da organização.
+
+
+3. Proteção de Identidade: Utiliza inteligência artificial para monitorar e responder a atividades suspeitas, ajudando a proteger contra ameaças de segurança.
+
+
+4. Gerenciamento de Identidade Híbrida: Integra identidades locais com o Azure AD, permitindo uma gestão unificada de identidades em ambientes híbridos.
+
+
+5. Privileged Identity Management (PIM): Gerencia, controla e monitora o acesso a recursos importantes, garantindo que apenas usuários autorizados tenham acesso a funções privilegiadas.
+
+
+Esses recursos ajudam a garantir que apenas usuários autorizados possam acessar os recursos necessários, protegendo a infraestrutura e os dados da sua organização.
+
+* O que é o entra ID no AZURE
+
+O Microsoft Entra ID, anteriormente conhecido como Azure Active Directory (Azure AD), é um serviço de gerenciamento de identidades e acesso baseado em nuvem. Ele permite que funcionários, clientes e parceiros acessem aplicativos, dispositivos e dados de forma segura.
+
+
+Aqui estão alguns dos principais recursos do Microsoft Entra ID:
+
+- Autenticação forte e políticas de acesso adaptáveis: Protege o acesso a recursos e dados sem comprometer a experiência do usuário.
+
+- Logon único (SSO): Simplifica o acesso a aplicativos em praticamente qualquer lugar com uma única autenticação.
+
+- Gerenciamento de identidades unificado: Permite gerenciar todas as identidades e acessos a partir de um único lugar, seja na nuvem ou no local.
+
+
+Se você já utiliza serviços como Microsoft 365, Office 365, Azure ou Dynamics CRM Online, você já está usando o Microsoft Entra ID para gerenciar suas identidades e acessos.
 
