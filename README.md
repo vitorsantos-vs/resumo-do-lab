@@ -293,3 +293,42 @@ Aqui estão alguns dos principais recursos do Microsoft Entra ID:
 
 Se você já utiliza serviços como Microsoft 365, Office 365, Azure ou Dynamics CRM Online, você já está usando o Microsoft Entra ID para gerenciar suas identidades e acessos.
 
+###* Oitavo Desafio
+
+Como usar a calculadora de custo do azure para levar seu ambiente on-premises para nuvem
+
+
+Migrar um ambiente on-premises para a nuvem pode ser uma decisão estratégica importante, e entender os custos associados é fundamental. Vamos explorar como usar a Calculadora de Preços do Azure para estimar os custos da sua migração.
+
+
+1. Acessando a Calculadora de Preços do Azure:
+
+  Existem duas maneiras de chegar à calculadora:
+
+  - Você pode acessá-la diretamente através deste [link](https://azure.microsoft.com/pricing/calculator/).
+
+  - Ou, visite o site do Azure e selecione o link da calculadora de preços em "Preço" no menu de navegação.
+
+
+2. Entendendo a Calculadora de Preços:
+
+  A página da calculadora de preços possui três seções principais:
+
+  - Seletor de produtos: Aqui, você verá todos os serviços do Azure para os quais a calculadora pode estimar os custos. Você pode pesquisar serviços específicos, explorar categorias e ver detalhes dos produtos.
+
+  - Estimativa e configuração do produto: Nesta área, você criará estimativas semelhantes a um carrinho de compras. Adicione os serviços que planeja usar e configure-os conforme necessário.
+
+  - Resumo da estimativa: Abaixo da configuração do produto, você verá um resumo da sua estimativa de custos.
+
+
+3. Criando uma estimativa:
+
+  Como é sua primeira vez, você começará com uma estimativa vazia. Comece adicionando os serviços que deseja usar. Por exemplo, se você planeja usar máquinas virtuais, vá até a seção "Compute" e selecione "Virtual Machines". Lá, você pode configurar os detalhes das máquinas virtuais e adicionar à sua estimativa.
+
+
+4. Calculadora de Custo Total de Propriedade (TCO):
+
+  Além da Calculadora de Preços, considere também a Calculadora de TCO do Azure. Ela permite estimar as economias possíveis ao migrar suas cargas de trabalho de aplicativos para o Microsoft Azure. Basta fornecer uma breve descrição do seu ambiente local para obter um relatório instantâneo.
+
+
+Lembre-se de que os preços mostrados na calculadora são exemplos e não refletem os preços reais. Explore e experimente diferentes cenários para obter uma estimativa mais precisa para sua migração para a nuvem.
