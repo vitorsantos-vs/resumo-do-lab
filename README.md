@@ -332,3 +332,33 @@ Migrar um ambiente on-premises para a nuvem pode ser uma decisão estratégica i
 
 
 Lembre-se de que os preços mostrados na calculadora são exemplos e não refletem os preços reais. Explore e experimente diferentes cenários para obter uma estimativa mais precisa para sua migração para a nuvem.
+
+###* Nono Desafio
+
+Como funciona a linha de comando dentro do Azure
+
+A Interface de Linha de Comando (CLI) do Azure é uma ferramenta poderosa que permite criar e gerenciar recursos no Microsoft Azure usando comandos de texto. Vamos dar uma olhada mais detalhada:
+
+1. O que é a CLI do Azure?
+   - A CLI do Azure é um conjunto de comandos que você pode usar para interagir com serviços e recursos do Azure diretamente da linha de comando.
+   - Ela está disponível em várias plataformas, incluindo Windows, macOS e Linux.
+
+2. Principais recursos e benefícios:
+   - **Automatização: A CLI do Azure é excelente para automação de tarefas repetitivas. Você pode criar scripts e fluxos de trabalho para gerenciar recursos em escala.
+   - Acesso rápido: Com a CLI, você pode executar comandos diretamente no terminal, sem precisar navegar pela interface gráfica do portal.
+   - Flexibilidade: A CLI oferece uma ampla gama de comandos para criar, listar, atualizar e excluir recursos, além de gerenciar assinaturas e grupos de recursos.
+
+3. Como começar:
+   - **Instalação**: Você pode baixar e instalar a CLI do Azure em seu sistema operacional. Ela está disponível para Windows, macOS e Linux.
+   - Autenticação: Após a instalação, você precisa se autenticar usando suas credenciais do Azure. Isso permite que a CLI acesse sua conta e execute comandos em seu nome.
+   - **Comandos básicos**: Experimente comandos como `az login` para fazer login, `az group create` para criar um grupo de recursos e `az vm create` para criar uma máquina virtual.
+
+4. Exemplo de uso:
+   - Digamos que você queira criar uma máquina virtual no Azure. Você pode fazer isso usando a CLI com um comando como este:
+     ```
+     az vm create --resource-group MeuGrupoDeRecursos --name MinhaVM --image UbuntuLTS --admin-username meuusuario --admin-password minhasenha
+     ```
+
+5. Azure Cloud Shell:
+   - Além da instalação local, você também pode usar o Azure Cloud Shell, que é uma experiência de linha de comando baseada no navegador. Ele está disponível no portal do Azure e é autenticado automaticamente em cada sessão.
+
