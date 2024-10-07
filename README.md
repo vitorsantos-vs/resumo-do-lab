@@ -362,3 +362,29 @@ A Interface de Linha de Comando (CLI) do Azure é uma ferramenta poderosa que pe
 5. Azure Cloud Shell:
    - Além da instalação local, você também pode usar o Azure Cloud Shell, que é uma experiência de linha de comando baseada no navegador. Ele está disponível no portal do Azure e é autenticado automaticamente em cada sessão.
 
+
+###* Decimo Desafio 
+
+Ferramentas de monitoramento do Azure
+
+O **Azure** oferece várias ferramentas de monitoramento para ajudar você a obter visibilidade e insights sobre seus recursos na nuvem. Vou apresentar algumas delas:
+
+1. **Azure Monitor**:
+   - O **Azure Monitor** é uma ferramenta abrangente que permite observabilidade de ponta a ponta em seus aplicativos, infraestrutura e rede em ambientes híbridos e de nuvem.
+   - Com o Azure Monitor, você pode coletar dados de várias fontes, incluindo aplicativos, contêineres, sistemas operacionais convidados, recursos do Azure e alterações de recursos.
+   - Ele oferece recursos como alertas, métricas, logs e rastreamento de aplicativos para ajudar a solucionar problemas, otimizar recursos e garantir o desempenho ideal¹.
+
+2. **Azure Log Analytics**:
+   - O **Azure Log Analytics** é uma solução de gerenciamento de dados e análise de log que coleta, correlaciona e visualiza dados de várias fontes.
+   - Ele permite que você consulte e analise logs de máquinas virtuais, contêineres, aplicativos e muito mais. Você pode criar painéis personalizados e definir alertas com base em consultas específicas.
+
+3. **Azure Application Insights**:
+   - O **Application Insights** é focado em monitoramento de aplicativos. Ele fornece insights detalhados sobre o desempenho e o comportamento de seus aplicativos.
+   - Com o Application Insights, você pode rastrear solicitações, exceções, dependências e métricas personalizadas. Ele também oferece recursos de rastreamento de usuário e análise de funil.
+
+4. **Azure Security Center**:
+   - Embora não seja exclusivamente uma ferramenta de monitoramento, o **Azure Security Center** ajuda a monitorar a segurança de seus recursos.
+   - Ele oferece recomendações de segurança, alertas de ameaças e insights sobre a postura de segurança de suas máquinas virtuais, bancos de dados e outros serviços.
+
+5. **Outras ferramentas**:
+   - Além das mencionadas acima, existem outras ferramentas de terceiros que podem ser integradas ao Azure para monitoramento, como o **SolarWinds Server & Application Monitor**, o **AppDynamics**, o **New Relic** e o **BMC TrueSight**³.
